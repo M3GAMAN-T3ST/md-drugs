@@ -6,12 +6,12 @@ Config.rewardItemheroin = "poppyresin"
 Config.rewardshrooms = "shrooms"
 Config.rewardMescaline = "cactusbulb"
 Config.rewardWeed = "wetcannabis"
-Config.oxtarget = true --- turn to true if you use oxtarget
+Config.oxtarget = false --- turn to true if you use oxtarget
 Config.respawnTime = 150 -- Seconds
 Config.Fuel = "LegacyFuel" -- type the name of script you use i.e. ps-fuel, cdn-fuel, LegacyFuel
-Config.OxInv = true -- true if you use ox inventory, false if you use qb/lj/ps
+Config.OxInv = false -- true if you use ox inventory, false if you use qb/lj/ps
 Config.TierSystem = true -- allows for three tiers of certain drugs ( coke, heroin, crack
-Config.StupidassNewQbItemName = false -- true if you have updated your items.lua from base qb after november 2023 because changing item names this far in a framework is 3 IQ points total
+Config.StupidassNewQbItemName = true -- true if you have updated your items.lua from base qb after november 2023 because changing item names this far in a framework is 3 IQ points total
 Config.imagelink = "ox_inventory/web/images/"
 
 
@@ -31,13 +31,14 @@ Config.gettabs = vector3(-1370.77, -314.51, 39.58) -- buy tab paper
 Config.buylsdlabkit = vector3(-1368.89, -318.72, 39.5)--  buy lab kit
 Config.tabcost = 100 -- price per piece of tab paper event does 10 at a time
 Config.lsdlabkitcost = 10000 -- price of the lsd lab kit
-------------------------- Heroin Locations
 
+------------------------- Heroin Locations
 Config.dryplant = vector3(-1364.7, -323.21, 39.44) -- turn resin into powder
 Config.buyheroinlabkit = vector3(-1361.08, -321.41, 39.53) -- buy heroin lab kit
 Config.cutheroinone = vector3(-1364.86, -320.15, 39.51) -- cut heroin stage 1-3 with baking soda
 Config.fillneedle = vector3(-1366.18, -317.81, 39.56) -- fill needles with heroin
 Config.heroinlabkitprice = 10000 -- price of the lsd lab kit
+
 ------------ XTC
 Config.isosafrole = vector3(892.7, -957.2, 39.28) -- where to steal isosafrole
 Config.mdp2p = vector3(901.07, -963.11, 39.28) -- where to steal mdp2p
@@ -58,11 +59,9 @@ vector3(614.75, 1786.26, 199.39),
 vector3(-224.89, 6388.32, 31.59)
 }
 
-
 ---------- Pharma
 Config.FillPrescription = vector3(2432.89, 4252.2, 36.35) ----------- this is where you want people to take their prescription to get a bottle of pills. They use bottle to get a random amount of prescription pills
 Config.PharmaJob = "ambulance" -- what job role you need to be on to get the command
-
 
 -------------- weed
 Config.Teleout = vector3(1066.31, -3183.36, -39.16) -- where you target to tele in
@@ -100,7 +99,6 @@ Config.AlertPoliceWholesale = 10 -- 1-100 of how often it will alert police
 
 
 --- travelling merchant
-
 Config.Travellingmerchant = { ------------ these are the random locations the merchant can spawn on script start. whatever you want for the merchant is in Config.Items right below
 	vector3(-119.06, -977.19, 304.25),
 	vector3(-1522.23, 1475.63, 112.02),
