@@ -168,7 +168,7 @@ end
 
 
 local function PoliceCallDeliveries()
-print " Tell your devs they didnt do something and to read the readme it isnt hard"
+    exports['ps-dispatch']:DrugSale()
 end
 
 local function DeliverStuff()
