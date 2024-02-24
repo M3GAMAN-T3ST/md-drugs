@@ -13,7 +13,7 @@ end
 end)
 
 function PolicecallOxy()
-print "Tell Your Dev They Didn't Follow The Readme"
+	exports['ps-dispatch']:DrugSale()
 end
 
 
