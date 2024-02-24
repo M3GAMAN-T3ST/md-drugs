@@ -2,7 +2,7 @@ local QBCore = exports['qb-core']:GetCoreObject()
 
 local deliveryBlip = nil
 function PoliceCallWholesale()
-print " tell your devs they didnt do something"
+    exports['ps-dispatch']:DrugSale()
 end
 
 RegisterNetEvent("md-drugs:client:getloccoke")
