@@ -27,7 +27,7 @@ local function TooFarAway()
 end
 
 local function PoliceCallCornerselling()
-   print"tell your devs to read the readme. it isnt hard for most people but they are dumb"
+    exports['ps-dispatch']:DrugSale()
 end
 
 local function RobberyPed()
