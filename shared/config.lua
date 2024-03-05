@@ -12,7 +12,7 @@ Config.Fuel = "LegacyFuel" -- type the name of script you use i.e. ps-fuel, cdn-
 Config.OxInv = false -- true if you use ox inventory, false if you use qb/lj/ps
 Config.TierSystem = true -- allows for three tiers of certain drugs ( coke, heroin, crack
 Config.StupidassNewQbItemName = true -- true if you have updated your items.lua from base qb after november 2023 because changing item names this far in a framework is 3 IQ points total
-Config.imagelink = "ox_inventory/web/images/"
+Config.imagelink = "ps-inventory/html/images/"
 
 
 ------------- Cocaine -- new animations require to be in a certain spot or they get fucky. uses bob74 ipl 
@@ -46,7 +46,7 @@ Config.rawxtcloc = vector3(898.51, -960.2, 39.28) --  where to combine the 2 ing
 Config.stamp = vector3(895.98, -963.57, 39.28) --  where to stamp pills
 Config.buypress = vector3(868.3, -960.72, 26.28)--  Where you buy your presses
 
------ mescaline
+----- Mescaline
 Config.DryOut = vector3(2622.6, 4222.57, 43.6) -- Place to dry out mescaline into usuable drug
 Config.Badtrip = 20 -- number means % chance to spawn a clone that chases and attacks while on mescaline
 
@@ -63,7 +63,7 @@ vector3(-224.89, 6388.32, 31.59)
 Config.FillPrescription = vector3(2432.89, 4252.2, 36.35) ----------- this is where you want people to take their prescription to get a bottle of pills. They use bottle to get a random amount of prescription pills
 Config.PharmaJob = "ambulance" -- what job role you need to be on to get the command
 
--------------- weed
+-------------- Weed
 Config.Teleout = vector3(1066.31, -3183.36, -39.16) -- where you target to tele in
 Config.Telein = vector3(244.74, 374.54, 105.74) -- where you target to tele out
 Config.MakeButter = vector3(1045.48, -3198.49, -38.22) -- where you make cannabutter and baked edibles
