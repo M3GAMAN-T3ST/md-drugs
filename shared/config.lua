@@ -10,48 +10,48 @@ Config.oxtarget = false --- turn to true if you use oxtarget
 Config.respawnTime = 150 -- Seconds
 Config.Fuel = "LegacyFuel" -- type the name of script you use i.e. ps-fuel, cdn-fuel, LegacyFuel
 Config.OxInv = false -- true if you use ox inventory, false if you use qb/lj/ps
-Config.TierSystem = true -- allows for three tiers of certain drugs ( coke, heroin, crack
+Config.TierSystem = true -- allows for three tiers of certain drugs (coke, heroin, crack)
 Config.StupidassNewQbItemName = true -- true if you have updated your items.lua from base qb after november 2023 because changing item names this far in a framework is 3 IQ points total
 Config.imagelink = "ps-inventory/html/images/"
 
 
-------------- Cocaine -- new animations require to be in a certain spot or they get fucky. uses bob74 ipl 
-Config.CokeTeleIn = vector3(198.16, -1276.92, 29.33)-- where you target to go inside
+--- Cocaine | POSTAL 9373 ---
+-- new animations require to be in a certain spot or they get fucky. uses bob74 ipl 
+Config.CokeTeleIn = vector3(198.16, -1276.92, 29.33)-- where you target to go inside 
 Config.CokeTeleOut = vector3(1088.81, -3187.57, -38.99) -- where you target to leave
-Config.MakePowder = vector3(1087.29, -3195.33, -38.99) -- where you chop your coca leaves to make powder
+Config.MakePowder = vector3(1979.84, -2613.6, 3.16) -- where you chop your coca leaves to make powder
 
----------------- Crack locations
-Config.makecrack = vector3(2434.07, 4969.39, 42.35) -- make crack with baking soda with cut coke 1-3
-Config.bagcrack = vector3(2435.85, 4965.3, 42.35) ---  bag crack 1-3 stages
+--- Crack | POSTAL 9373 ---
+Config.makecrack = vector3(1981.89, -2609.89, 3.13) -- make crack with baking soda with cut coke 1-3
+Config.bagcrack = vector3(1978.92, -2606.77, 4.13) ---  bag crack 1-3 stages
 
-------------------------- LSD Locations
-Config.lysergicacid = vector3(-1370.71, -317.3, 39.51) -- get lysergic acid
-Config.diethylamide = vector3(-1371.71, -316.02, 39.53) -- get diethylamide
+--- LSD | POSTAL 6171 ---
+Config.lysergicacid = vector3(-177.6, 405.21, 110.77) -- get lysergic acid
+Config.diethylamide = vector3(-175.95, 410.34, 110.77) -- get diethylamide
 Config.gettabs = vector3(-1370.77, -314.51, 39.58) -- buy tab paper
 Config.buylsdlabkit = vector3(-1368.89, -318.72, 39.5)--  buy lab kit
 Config.tabcost = 100 -- price per piece of tab paper event does 10 at a time
 Config.lsdlabkitcost = 10000 -- price of the lsd lab kit
 
-------------------------- Heroin Locations
-Config.dryplant = vector3(-1364.7, -323.21, 39.44) -- turn resin into powder
+--- Heroin | POSTAL 9102 ---
+Config.dryplant = vector3(75.79, -1954.54, 21.01) -- turn resin into powder
 Config.buyheroinlabkit = vector3(-1361.08, -321.41, 39.53) -- buy heroin lab kit
-Config.cutheroinone = vector3(-1364.86, -320.15, 39.51) -- cut heroin stage 1-3 with baking soda
-Config.fillneedle = vector3(-1366.18, -317.81, 39.56) -- fill needles with heroin
+Config.cutheroinone = vector3(72.11, -1958.55, 21.01) -- cut heroin stage 1-3 with baking soda
+Config.fillneedle = vector3(75.23, -1956.83, 21.21) -- fill needles with heroin
 Config.heroinlabkitprice = 10000 -- price of the lsd lab kit
 
------------- XTC
-Config.isosafrole = vector3(892.7, -957.2, 39.28) -- where to steal isosafrole
-Config.mdp2p = vector3(901.07, -963.11, 39.28) -- where to steal mdp2p
-Config.rawxtcloc = vector3(898.51, -960.2, 39.28) --  where to combine the 2 ingridents to make raw xtc
-Config.stamp = vector3(895.98, -963.57, 39.28) --  where to stamp pills
+--- XTC | POSTAL 4012 ---
+Config.isosafrole = vector3(77.5, -814.23, 31.31) -- where to steal isosafrole
+Config.mdp2p = vector3(81.11, -818.04, 31.24) -- where to steal mdp2p
+Config.rawxtcloc = vector3(-29.72, 2885.61, 55.31) --  where to combine the 2 ingridents to make raw xtc
+Config.stamp = vector3(-27.41, 2886.69, 55.3) --  where to stamp pills
 Config.buypress = vector3(868.3, -960.72, 26.28)--  Where you buy your presses
 
------ Mescaline
-Config.DryOut = vector3(2622.6, 4222.57, 43.6) -- Place to dry out mescaline into usuable drug
+--- Mescaline | POSTAL 1001 ---
+Config.DryOut = vector3(1443.21, 6331.9, 23.98) -- Place to dry out mescaline into usuable drug
 Config.Badtrip = 20 -- number means % chance to spawn a clone that chases and attacks while on mescaline
 
-
--------------- lean
+--- Lean | POSTAL
 Config.SyrupVendor = vector3(362.71, -577.84, 39.3) -- where the mission ped starts
 Config.StartLoc = {
 vector3(-2307.22, 434.77, 174.47), -- where the truck spawns
@@ -59,15 +59,15 @@ vector3(614.75, 1786.26, 199.39),
 vector3(-224.89, 6388.32, 31.59)
 }
 
----------- Pharma
-Config.FillPrescription = vector3(2432.89, 4252.2, 36.35) ----------- this is where you want people to take their prescription to get a bottle of pills. They use bottle to get a random amount of prescription pills
+--- Pharma | POSTAL 8055 ---
+Config.FillPrescription = vector3(71.35, -814.04, 31.26) ----------- this is where you want people to take their prescription to get a bottle of pills. They use bottle to get a random amount of prescription pills
 Config.PharmaJob = "ambulance" -- what job role you need to be on to get the command
 
--------------- Weed
+--- Weed | POSTAL 8220 ---
 Config.Teleout = vector3(1066.31, -3183.36, -39.16) -- where you target to tele in
 Config.Telein = vector3(244.74, 374.54, 105.74) -- where you target to tele out
-Config.MakeButter = vector3(1045.48, -3198.49, -38.22) -- where you make cannabutter and baked edibles
-Config.MakeOil = vector3(1038.90, -3198.66, -38.17-1) -- where you make shatter
+Config.MakeButter = vector3(-1161.51, -1385.51, -1.96) -- where you make cannabutter and baked edibles
+Config.MakeOil = vector3(-1162.31, -1383.48, -1.8) -- where you make shatter
 
 Config.WeedDry = { -- where you dry leaves 
 vector3(1043.0, -3191.59, -38.39),
@@ -108,31 +108,25 @@ Config.Items = { --- this is the store for the travelling merchant
     label = "Travelling Merchant",
     slots = 24,
     items = {
-        [1] = {name = "tab_paper", 		label = "Tab Paper", 		price = 50, 	amount = 50, 	info = {}, type = "item", slot = 1},
-        [2] = {name = "bakingsoda", 	label = "Baking Soda",		price = 25, 	amount = 50, 	info = {}, type = "item", slot = 2},
-		[3] = {name = "isosafrole", 	label = "Isosafrole",		price = 25, 	amount = 50, 	info = {}, type = "item", slot = 3},
-		[4] = {name = "mdp2p", 			label = "MDP2P", 			price = 25, 	amount = 50, 	info = {}, type = "item", slot = 4},
-		[5] = {name = "lysergic_acid",  label = "Lysergic Acid",	price = 25, 	amount = 50, 	info = {}, type = "item", slot = 5},
-		[6] = {name = "diethylamide",   label = "Diethylamide", 	price = 25, 	amount = 50, 	info = {}, type = "item", slot = 6},
-		[7] = {name = "empty_weed_bag", label = "Empty Weed Bag", 	price = 2, 	    amount = 1000, 	info = {}, type = "item", slot = 7},
-		[8] = {name = "emptyvial", 		label = "Empty Vial", 		price = 2, 	    amount = 1000, 	info = {}, type = "item", slot = 8},
-		[9] = {name = "needle", 		label = "Syringe", 			price = 2, 		amount = 1000,	info = {}, type = "item", slot = 9},
-		[10] = {name = "cokeburner", 	label = "Nokie Burner", 	price = 25, 	amount = 50, 	info = {}, type = "item", slot = 10},
-		[11] = {name = "crackburner", 	label = "Juke Burner",		price = 2, 		amount = 50, 	info = {}, type = "item", slot = 11},
-		[12] = {name = "lsdburner",		label = "SideKick Burner",	price = 2, 		amount = 50, 	info = {}, type = "item", slot = 12},
-		[13] = {name = "heroinburner", 	label = "Razr Burner",		price = 2, 		amount = 50, 	info = {}, type = "item", slot = 13},
-		[14] = {name = "mdlean", 		label = "Sizzurup", 		price = 50, 	amount = 50, 	info = {}, type = "item", slot = 14},
-        [15] = {name = "weedgrinder", 	label = "Weed Grinder",		price = 25, 	amount = 50, 	info = {}, type = "item", slot = 15},
-		[16] = {name = "mdbutter", 		label = "Butter",			price = 25, 	amount = 50, 	info = {}, type = "item", slot = 16},
-		[17] = {name = "flour", 		label = "Flour", 			price = 25, 	amount = 50, 	info = {}, type = "item", slot = 17},
-		[18] = {name = "chocolate",  	label = "chocolate",		price = 25, 	amount = 50, 	info = {}, type = "item", slot = 18},
-		[19] = {name = "butane", 		label = "Butane", 			price = 25, 	amount = 50, 	info = {}, type = "item", slot = 19},
-		[20] = {name = "butanetorch", 	label = "Butane Torch", 	price = 2, 		amount = 1000, 	info = {}, type = "item", slot = 20},
-		[21] = {name = "dabrig", 		label = "Dab Rig", 			price = 2, 		amount = 1000, 	info = {}, type = "item", slot = 21},
-		[22] = {name = "mdwoods", 		label = "MD Woods", 		price = 2, 		amount = 1000, 	info = {}, type = "item", slot = 22},
-		[23] = {name = "leancup", 		label = "Empty Cup", 		price = 25, 	amount = 50, 	info = {}, type = "item", slot = 23},
-        [24] = {name = "xtcburner", 	label = "ENV Burner", 		price = 25, 	amount = 50, 	info = {}, type = "item", slot = 24},
-		
+		[1] = {name = "lysergic_acid",  label = "Lysergic Acid",	price = 25, 	amount = 50, 	info = {}, type = "item", slot = 5},
+		[2] = {name = "diethylamide",   label = "Diethylamide", 	price = 25, 	amount = 50, 	info = {}, type = "item", slot = 6},
+		[3] = {name = "empty_weed_bag", label = "Empty Weed Bag", 	price = 2, 	    amount = 1000, 	info = {}, type = "item", slot = 7},
+		[4] = {name = "cokeburner", 	label = "Nokie Burner", 	price = 25, 	amount = 50, 	info = {}, type = "item", slot = 10},
+		[5] = {name = "crackburner", 	label = "Juke Burner",		price = 2, 		amount = 50, 	info = {}, type = "item", slot = 11},
+		[6] = {name = "lsdburner",		label = "SideKick Burner",	price = 2, 		amount = 50, 	info = {}, type = "item", slot = 12},
+		[7] = {name = "heroinburner", 	label = "Razr Burner",		price = 2, 		amount = 50, 	info = {}, type = "item", slot = 13},
+		[8] = {name = "mdlean", 		label = "Sizzurup", 		price = 50, 	amount = 50, 	info = {}, type = "item", slot = 14},
+        [9] = {name = "weedgrinder", 	label = "Weed Grinder",		price = 25, 	amount = 50, 	info = {}, type = "item", slot = 15},
+		[10] = {name = "mdbutter", 		label = "Butter",			price = 25, 	amount = 50, 	info = {}, type = "item", slot = 16},
+		[11] = {name = "dabrig", 		label = "Dab Rig", 			price = 2, 		amount = 1000, 	info = {}, type = "item", slot = 21},
+		[12] = {name = "mdwoods", 		label = "MD Woods", 		price = 2, 		amount = 1000, 	info = {}, type = "item", slot = 22},
+		[13] = {name = "leancup", 		label = "Empty Cup", 		price = 25, 	amount = 50, 	info = {}, type = "item", slot = 23},
+        [14] = {name = "xtcburner", 	label = "ENV Burner", 		price = 25, 	amount = 50, 	info = {}, type = "item", slot = 24},
+        [15] = {name = "singlepress", 	label = "Pill Press", 		price = 1000, 	amount = 50, 	info = {}, type = "item", slot = 24},
+        [16] = {name = "heroinlabkit", 	label = "Heroin Lab Kit",   price = 1000, 	amount = 50, 	info = {}, type = "item", slot = 24},
+        [17] = {name = "dirtyheroinlabkit", 	label = "Dirty Heroin Lab Kit", price = 1000, 	amount = 50, 	info = {}, type = "item", slot = 24},
+        [18] = {name = "isosafrole", 	label = "Isosafrole",       price = 25, 	amount = 50, 	info = {}, type = "item", slot = 24},
+        [19] = {name = "mdp2p ", 	    label = "MDP2P",            price = 25, 	amount = 50, 	info = {}, type = "item", slot = 24},
 	}
 }
 --------------------------------------- oxy runs
@@ -153,8 +147,8 @@ Config.oxylocations = { -- These are different locations where a ped spawns.
     vector4(-2352.32, 266.78, 165.3, 23.46),
     vector4(-1467.49, 874.01, 183.59, 298.45),
     vector4(-856.71, 874.26, 202.85, 205.3),
-   vector4(950.58, -128.49, 74.42, 205.3),
-   vector4(1152.71, -328.43, 69.21, 205.3),
+    vector4(950.58, -128.49, 74.42, 205.3),
+    vector4(1152.71, -328.43, 69.21, 205.3),
 	vector4(112.66, -1955.67, 20.75, 37.94),
 	vector4(-544.4, -1684.8, 19.89, 252.07),
 	vector4(-1185.02, -1805.4, 3.91, 184.83),
